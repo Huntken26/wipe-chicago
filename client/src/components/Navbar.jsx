@@ -9,9 +9,10 @@ function Navbar() {
       <Flex maxW="1200px" mx="auto" px="4">
         <Link href="/" fontSize="xl" fontWeight="bold">Wipe Chicago LLC</Link>
         <Spacer />
-        <Link href="/services" mr="4">Services</Link>
+        <Link href="/aboutus" mr="4">About Us</Link>
+        <Link href="/carousel" mr="4">Services</Link>
+        <Link href="/map" mr="4">Map</Link>
         <Link href="/contact" mr="4">Contact Us</Link>
-        <Link href="/map">Map</Link>
       </Flex>
     </Box>
   );
