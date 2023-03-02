@@ -1,0 +1,16 @@
+.centered-map {
+  padding: 20px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(94, 23, 235, 0.2), 0 6px 20px 0 rgba(94, 23, 235, 0.19);
+    margin-bottom: 30px;
+  }
+
+  
+  .centered-map-container h1 {
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
-import Carousel from './components/Carousel';
+import ServicesList from './components/ServicesList';
 import ContactUs from './components/ContactUs';
+import Map from './components/Map';
 
 
 function App() {
@@ -10,8 +12,10 @@ function App() {
     
     <div>
       <Navbar />
+      <Hero />
       <AboutUs />
-      <Carousel />
+      <ServicesList />
+      <Map />
       <ContactUs />
    
     </div>

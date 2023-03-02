@@ -6,8 +6,11 @@ function AboutUs() {
   return (
     <Box bg="gray.50">
       <Container maxW="container.lg" py={20} px={4}>
+        <Box textAlign="center" borderBottom="3px solid deepblue" pb={4}>
+        <Text as="h1" fontSize="4xl" fontWeight="bold" mb={4} > About Us</Text>
+        </Box>
         <Box display={{ md: "flex" }} alignItems="center">
-          <Image src="wipe.png" alt="Stock Image" flexShrink={0} w={{ md: "50%" }} mr={{ md: 8 }} />
+          <Image src="undraw.png" alt="Stock Image" flexShrink={0} w={{ md: "50%" }} mr={{ md: 8 }} />
           <Box>
             <Text as="h2" fontSize="3xl" fontWeight="bold" mb={4}>Our Mission</Text>
             <Text fontSize="xl">
@@ -21,3 +24,4 @@ function AboutUs() {
 }
 
 export default AboutUs;
+
