@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChicagoMap.css';
+import './css/ChicagoMap.css';
 
 function Map() {
   return (

@@ -1,0 +1,1 @@
+//Feature a signup and login form... mutations and queries. Apollo GraphQL. Create a signin for 3 users... have json data too.

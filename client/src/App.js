@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs';
 import ServicesList from './components/ServicesList';
 import ContactUs from './components/ContactUs';
 import Map from './components/Map';
+import ComingSoon from './components/ComingSoon';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <ServicesList />
       <Map />
+      <ComingSoon />
       <ContactUs />
    
     </div>
