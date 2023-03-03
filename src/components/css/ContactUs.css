@@ -21,7 +21,7 @@
     border: 1px solid #ccc;
     padding: 5px;
     font-size: 16px;
-    width: 50%;
+    width: 100%;
   }
   
   .contact-form input[type="submit"] {
@@ -35,5 +35,10 @@
   
   .contact-form input[type="submit"]:hover {
     background-color: #0077be;
+  }
+  
+  form {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Set the left and right margins to auto to center the form */
   }
   
