@@ -1,28 +1,47 @@
-import React from 'react';
-import { Box, Container, Text, Badge } from '@chakra-ui/react';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import './css/ContactUs.css';
 
-function ContactUs() {
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nnsr9sa', 'template_mk1dsy8', form.current, 'e_GbC-iNiX6gBn0Ar4LqG')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
   return (
-    <Box bg="gray.800" py={8}>
-      <Container maxW="container.lg">
-        <Text color="white" fontWeight="bold" mb={2}>Contact Us</Text>
-        <Text color="white" mb={2}>123 Main Street</Text>
-        <Text color="white" mb={4}>Anytown, USA 12345</Text>
-        <a href="tel:+1234567890">
-          <Badge colorScheme="purple" mb={4}>Call Us: (123) 456-7890</Badge>
-        </a>
-        <Box display="flex" justifyContent="space-between">
-          <a href="https://www.linkedin.com/">
-            <Badge colorScheme="blue" mr={4}>LinkedIn</Badge>
-          </a>
-          <a href="https://www.instagram.com/">
-            <Badge colorScheme="pink">Instagram</Badge>
-          </a>
-        </Box>
-      </Container>
-    </Box>
+    <form className="contact-form" ref={form} onSubmit={sendEmail}>
+      <div>
+        <label htmlFor="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label htmlFor="company">Company Name</label>
+        <input type="text" id="company" name="company" />
+      </div>
+      <div>
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label htmlFor="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+      <div>
+        <label htmlFor="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <input type="submit" value="Send" />
+    </form>
   );
-}
+};
 
 export default ContactUs;
 
