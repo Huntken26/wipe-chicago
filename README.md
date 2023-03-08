@@ -46,13 +46,13 @@ Start the application by running npm run dev in the root directory. The applicat
 
 
 ## Credits
-React - JavaScript library used to build the frontend user interface.
-Node.js - JavaScript runtime environment used to run the backend API.
-create-react-app - Tool used to create the initial React project structure.
-Chakra UI - UI component library used to style the application.
-Email-js - Service used to take in user input and forwarding to the owner's email address.
-Canva- Graphic design website used to create the branding, logo and color scheme of the business.
-Github-Pages - Used for deployment.
+React - JavaScript library used to build the frontend user interface.<br/>
+Node.js - JavaScript runtime environment used to run the backend API.<br/>
+create-react-app - Tool used to create the initial React project structure.<br/>
+Chakra UI - UI component library used to style the application.<br/>
+Email-js - Service used to take in user input and forwarding to the owner's email address.<br/>
+Canva- Graphic design website used to create the branding, logo and color scheme of the business.<br/>
+Github-Pages - Used for deployment.<br/>
 
 
 ## Contributing

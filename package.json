@@ -1,5 +1,6 @@
 {
   "name": "wipe-chicago",
+  "homepage": "https://huntken26.github.io/wipe-chicago",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,7 @@
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
     "framer-motion": "^10.0.1",
+    "gh-pages": "^5.0.0",
     "mongoose": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
