@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer"; // import the useInView
 function AboutUs() {
   const [ref, inView] = useInView(); // create a ref and state to track whether the image is in view
   return (
+    <section id="aboutus-section">
     <Box bg="gray.50" marginBottom="30px">
       <Container maxW="container.lg" py={20} px={4}>
         <Box textAlign="center" borderBottom="3px solid deepblue" pb={4}>
@@ -29,6 +30,7 @@ function AboutUs() {
         </Box>
       </Container>
     </Box>
+    </section>
   );
 }
 

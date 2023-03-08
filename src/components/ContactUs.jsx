@@ -17,6 +17,7 @@ export const ContactUs = () => {
   };
 
   return (
+    <section id ="contact-form">
     <form className="contact-form" ref={form} onSubmit={sendEmail}>
       <div>
         <label htmlFor="name">Name</label>
@@ -40,6 +41,7 @@ export const ContactUs = () => {
       </div>
       <input type="submit" value="Send" />
     </form>
+    </section>
   );
 };
 

@@ -41,6 +41,7 @@ const ServiceCard = ({ service }) => {
   };
 
   return (
+    <section id= "services-list">
     <Box
       maxW="sm"
       borderWidth="1px"
@@ -62,6 +63,7 @@ const ServiceCard = ({ service }) => {
         </Text>
       </Box>
     </Box>
+    </section>
   );
 };
 

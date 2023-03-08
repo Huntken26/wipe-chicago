@@ -14,7 +14,7 @@ const ComingSoon = () => {
         Coming Soon!
       </Heading>
       <Text mt={2}>
-        An app is being created for quick gigs. Stay tuned for updates.
+        An app is being created for quick gigs as well as an employee/client login for the browser site. Stay tuned for updates.
       </Text>
     </Box>
   );
