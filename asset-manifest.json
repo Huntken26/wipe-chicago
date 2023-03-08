@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wipe-chicago/static/css/main.18ad75ab.css",
+    "main.js": "/wipe-chicago/static/js/main.7a34d08a.js",
+    "index.html": "/wipe-chicago/index.html",
+    "main.18ad75ab.css.map": "/wipe-chicago/static/css/main.18ad75ab.css.map",
+    "main.7a34d08a.js.map": "/wipe-chicago/static/js/main.7a34d08a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ad75ab.css",
+    "static/js/main.7a34d08a.js"
+  ]
+}
